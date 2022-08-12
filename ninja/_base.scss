@@ -1,0 +1,28 @@
+h1{
+    color: $primary;
+    background-color: $secondry;
+    margin-top: $base-margin;
+    margin-bottom: $base-margin;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+hr{
+    border: 0;
+    border-top: 1px dotted white;
+}
+
+image{
+    max-width: 100%;
+}
+
+.test{
+    color: $primary;
+}

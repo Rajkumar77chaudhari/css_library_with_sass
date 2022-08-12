@@ -1,0 +1,372 @@
+h1 {
+  color: rgb(13, 243, 151);
+  background-color: rgb(146, 5, 255);
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media (min-width: 0) {
+  .responsive-test {
+    color: red;
+  }
+}
+@media (min-width: 480px) {
+  .responsive-test {
+    color: blue;
+  }
+}
+@media (min-width: 720px) {
+  .responsive-test {
+    color: green;
+  }
+}
+@media (min-width: 960px) {
+  .responsive-test {
+    color: purple;
+  }
+}
+@media (min-width: 1200px) {
+  .responsive-test {
+    color: orange;
+  }
+}
+@media (min-width: 1400px) {
+  .responsive-test {
+    color: pink;
+  }
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.gap-2 > * {
+  padding: 20px;
+}
+
+.gap-2 {
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+}
+
+@media (min-width: 0) {
+  col-12-xs {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 480px) {
+  col-5-sm {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 41.6666666667%;
+  }
+}
+@media (min-width: 1200px) {
+  col-3-xl {
+    box-sizing: border-box;
+    flex-grow: 0;
+    width: 25%;
+  }
+}
+.text-primary {
+  color: rgb(13, 243, 151);
+}
+
+.bg-primary {
+  background-color: rgb(13, 243, 151);
+}
+
+.bg-primary-light-2 {
+  background-color: #3df5ac;
+}
+
+.bg-primary-light-4 {
+  background-color: #6ef8c1;
+}
+
+.bg-primary-light-6 {
+  background-color: #9efad5;
+}
+
+.bg-primary-light-8 {
+  background-color: #cffdea;
+}
+
+.bg-primary-dark-2 {
+  background-color: #0ac279;
+}
+
+.bg-primary-dark-4 {
+  background-color: #08925b;
+}
+
+.bg-primary-dark-6 {
+  background-color: #05613c;
+}
+
+.bg-primary-dark-8 {
+  background-color: #03311e;
+}
+
+.text-error {
+  color: rgb(224, 48, 48);
+}
+
+.bg-error {
+  background-color: rgb(224, 48, 48);
+}
+
+.text-info {
+  color: rgb(255, 247, 0);
+}
+
+.bg-info {
+  background-color: rgb(255, 247, 0);
+}
+
+.text-red {
+  color: rgb(255, 0, 0);
+}
+
+.bg-red {
+  background-color: rgb(255, 0, 0);
+}
+
+.text-hover-red-light-1:hover {
+  color: #ff1a1a;
+}
+
+.text-blue {
+  color: rgb(0, 42, 255);
+}
+
+.text-orange {
+  color: rgb(255, 111, 0);
+}
+
+.bg-orange {
+  background-color: rgb(255, 111, 0);
+}
+
+.text-green {
+  color: rgb(21, 255, 0);
+}
+
+.bg-green {
+  background-color: rgb(21, 255, 0);
+}
+
+.text-yellow {
+  color: rgb(246, 255, 0);
+}
+
+.bg-yellow {
+  background-color: rgb(246, 255, 0);
+}
+
+.text-purple {
+  color: rgb(255, 0, 242);
+}
+
+.bg-purple {
+  background-color: rgb(255, 0, 242);
+}
+
+.text-grey {
+  color: rgb(78, 78, 78);
+}
+
+.bg-grey {
+  background-color: rgb(78, 78, 78);
+}
+
+.text-black {
+  color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-hover-white:hover {
+  color: white;
+}
+
+.bg-white {
+  background-color: white;
+}
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  margin: 30px;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.card .card-title {
+  font-size: 2rem;
+  padding-bottom: 0.75rem;
+  font-weight: bold;
+}
+.card .card-body {
+  font-size: 1rem;
+}
+.card .card-body a {
+  text-decoration: underline;
+}
+
+.btn-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(13, 243, 151);
+}
+.btn-primary:hover {
+  background-color: #25f4a1;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(146, 5, 255);
+}
+.btn-secondary:hover {
+  background-color: #9d1fff;
+}
+
+.btn-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(224, 48, 48);
+}
+.btn-error:hover {
+  background-color: #e34646;
+}
+
+.btn-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(255, 247, 0);
+}
+.btn-info:hover {
+  background-color: #fff81a;
+}
+
+.btn-outlined-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid rgb(255, 111, 0);
+}
+.btn-outlined-orange:hover {
+  background-color: rgb(255, 111, 0);
+}
+
+.btn-complement-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(255, 111, 0);
+  color: #1a9bff;
+}
+.btn-complement-orange:hover {
+  color: rgb(255, 111, 0);
+  background-color: #1a9bff;
+}
+
+.btn-outlined-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid rgb(255, 0, 242);
+}
+.btn-outlined-purple:hover {
+  background-color: rgb(255, 0, 242);
+}
+
+.btn-complement-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 20px;
+  background-color: rgb(255, 0, 242);
+  color: #1aff25;
+}
+.btn-complement-purple:hover {
+  color: rgb(255, 0, 242);
+  background-color: #1aff25;
+}
+
+ .navbar-purple .container, .navbar-purple {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+ .navbar-purple {
+  padding: 0.75rem 1.5rem;
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
+}
+ .navbar-purple .site-title {
+  font-size: 1.5rem;
+}
+
+.navbar-purple {
+  background-color: rgb(255, 0, 242);
+}
